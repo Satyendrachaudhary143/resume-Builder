@@ -3,6 +3,9 @@ let sb = document.querySelector(".sb");
 let gt = document.querySelector(".gt");
 let resumeform = document.querySelector("#resumeform");
 let dresume = document.querySelector(".dresume");
+let gender = document.querySelector("#gender");
+let maritalStatus = document.querySelector("#maritalStatus");
+let religion = document.querySelector("#religion");
 
 
 
@@ -417,7 +420,19 @@ let sb = document.querySelector(".sb");
               </div>
               <div class="cd">
 
+                  <p>Gender: </p><span>${gender.value}</span>
+              </div>
+              <div class="cd">
+
                   <p>Languages Known:</p> <span> ${languages?.value}</span>
+              </div>
+              <div class="cd">
+
+                  <p>Marital Status:</p> <span> ${maritalStatus?.value}</span>
+              </div>
+              <div class="cd">
+
+                  <p>Religion:</p> <span> ${religion?.value}</span>
               </div>
               <div class="cd">
 
